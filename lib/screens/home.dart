@@ -51,7 +51,7 @@ class _HomeState extends State<Home> {
         },
       ),
       appBar: AppBar(
-        title: Text("Toko Online"),
+        title: Text("Toko Onlines"),
       ),
       body: FutureBuilder<dynamic>(
         future: getProducts(),
